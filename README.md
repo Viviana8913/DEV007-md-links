@@ -23,7 +23,8 @@ Estos archivos `Markdown` normalmente contienen _links_ (vínculos/ligas) que
 muchas veces están rotos o ya no son válidos y eso perjudica mucho el valor de
 la información que se quiere compartir.
 
-![anchor-links-wordpress](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/6d296484-95c5-49e4-b01d-952d3bd4017c)
+![anchor-links-wordpress](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/1a6b255e-cc65-414a-8acc-16ddc880d31d)
+
 
 ## 2. Resumen del proyecto
 
@@ -38,10 +39,12 @@ construido con el Node.js
 
 ## 3. Planificación del proyecto
 El metodo para desarrollar el proyecto fue por medio de GitHub Projects, Issues y Milestones.
-![foto 6](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/629a2911-dc41-4cb5-b33f-d4047bdf42ad)
+![foto 6](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/02125dbf-36d4-4a3c-ae3c-96abecf3651a)
+
 
 # Diagrama de flujo del proyecto
-![Diagrama MDLinks (2)](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/42ad84b9-c42c-4407-894c-cce0c53c0664)
+![Diagrama MDLinks (2)](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/9726ec12-968b-4dd7-94e3-84c5a14ec531)
+
 
 ## 4. Paso a paso del proyecto
 CLI (aplicación de línea de comandos).
@@ -64,21 +67,23 @@ En caso de se una ruta no encontrada o la ruta no fue proporcionada correctament
 
 Ingresos de opciones y resultados esperados.
 1. npx npm i vivianagomez_md-links <path> Al ejecutar esta opción donde solo se proporciona la ruta la libreria solo enlistara los links encontrados. En caso de no encontrar ruta o no ser proporcionada conrrectamente lanzara error u ruta no encontrada.
-![foto 1](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/1dd966ad-a70c-47b7-86fc-b2d66b79621f)
-![foto 2](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/118e4093-e821-4c6f-8591-9755505ffff0)
+![foto 1](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/7233f1af-2c6a-4486-9c31-bb452af832a3)
+![foto 2](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/9e369f6c-e073-4f04-aa18-892d9f5134b6)
 
 2. npx i vivianagomez_md-links <path> --validate Al ejecutar esta opción el modulo hara una petición HTTP mostrando si los links encontrados funcionan o no. Si el link resulta en una redirección a una URL que responde ok, entonces consideraremos el link como funcional. Si el link resulta en una redirección a una URL que responde fail, entonces consideraremos el link como roto. Si no encuentra ningun archivo se lanzara error.
-![foto 3](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/63c77895-3fe3-47bd-a3c2-9a06939926c5)
+![foto 3](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/2df11bdf-0aa4-487d-a3ee-11a355082417)
 
 3.npx i vivianagomez_md-links <path> --stats Al ejecutar esta opción el output (salida) será un texto con estadísticas básicas sobre los links, donde se mostrara la cantidad de links encontrados y no repetidos. Si no encuentra ningun archivo se lanzara error.
-![foto 4](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/e27b5cc7-9a76-4d95-ba77-98666bcfd23d)
+![foto 4](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/ac69c9f6-c440-49a4-81f4-da077522252c)
+
 4. npx i vivianagomez_md-links <path> --validate --stats Al ejecutar esta opción el output (salida) será un texto con estadísticas básicas sobre los links, donde se mostrara la cantidad de links encontrados y no repetidos, ademas de analizar la cantidad de links rotos u no funcionales. Si no encuentra ningun archivo se lanzara error.
-![foto 5](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/03a6abf0-c6b6-4522-a2c5-fcaf08e874ab)
+![foto 5](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/5994132c-c2ed-4d00-a374-0d37bc2b388c)
 
 ## 5. Testeo del proyecto
 
 Resultados de pruebas realizadas a las funciones puras.
-![foto7](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/053fcae3-747c-46ee-99a4-229e191a197c)
+![foto7](https://github.com/Viviana8913/DEV007-md-links/assets/129759642/6c21440a-8790-49ff-b576-70495fc9b84b)
+
 
 ## 6. Checklist
 
